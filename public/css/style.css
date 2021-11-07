@@ -1,0 +1,61 @@
+		/* The navigation bar */
+		.navbar {
+			overflow: hidden;
+			background-color: white;
+			position: fixed; /* Set the navbar to fixed position */
+			top: 0; /* Position the navbar at the top of the page */
+			width: 100%; /* Full width */
+			height: 50px;
+			z-index: 99;
+		}
+		
+		/* Links inside the navbar */
+		.navbar a {
+			float:right;
+			display: block;
+			position: relative;
+			right: 100px;
+			color:cornflowerblue;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		/* Logo inside the navbar */
+		.navbar h2 {
+			float:left;
+			display: block;
+			left: 40px;
+			top: -10px;
+			position: relative;
+			color:grey;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		/* Change background on mouse-over */
+		.navbar a:hover {
+			background: #ddd;
+			color: black;
+		}
+		
+		.main h1{
+			margin-top: 100px;
+		}
+		
+		.page1 {
+			height: 2160px;
+			width: 3840px;
+			top: 50px;
+			position: relative;
+		}
+
+		.page1 img{
+			z-index: -1;
+		}
+		
+		html, body {
+				max-width: 100%;
+				overflow-x: hidden;
+				height:auto!important; /* for iphone */
+		}

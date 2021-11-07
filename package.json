@@ -1,0 +1,23 @@
+{
+  "name": "octosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebxGit/octoSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebxGit/octoSite/issues"
+  },
+  "homepage": "https://github.com/sebxGit/octoSite#readme",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
