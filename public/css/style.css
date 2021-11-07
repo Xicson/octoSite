@@ -48,6 +48,8 @@
 			width: 3840px;
 			top: 50px;
 			position: relative;
+			background-image: url("../image/nature.jpeg");
+			background-repeat: no-repeat;
 		}
 
 		.page1 img{
