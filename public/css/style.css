@@ -103,6 +103,36 @@
 	color: black;
 }
 
+.page1 h1 {
+	position: relative;
+	top: 510px;
+	left: 85px;
+	margin: 0px;
+	color: white;
+}
+
+.mailBoxContainer {
+	position: relative;
+	top: 550px;
+	left: 85px;
+}
+
+.mailBox {
+	position: absolute;
+	height: 30px;
+	width: 230px;
+	font-size: 14px;
+}
+
+.mailBoxButton {
+	position: absolute;
+	left: 245px;
+	height: 35px;
+	width: 100px;
+	border: none;
+	background-color: aqua;
+	color: black;
+}
 
 .page2 h5{
 	top: 150px;
